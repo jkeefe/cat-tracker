@@ -11,7 +11,6 @@ FROM resin/%%RESIN_MACHINE_NAME%%-node:6-slim
 #    apt-get clean && rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update && apt-get install -yq \
-    apt-get purge bluez-utils blueman bluez bluez-firmware pi-bluetooth \
     apt-get install blueman bluez bluez-firmware pi-bluetooth \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
