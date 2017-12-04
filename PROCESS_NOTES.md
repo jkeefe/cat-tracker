@@ -70,19 +70,20 @@ rfkill list
 sudo hcitool lescan
 bluetoothctl
 ```
-Initially, I implemented this like so in the `Dockerfile.template`:
+
+Took some tinkering, and some changes (like user `root` instead of `pi` but I implemented this like so in the `Dockerfile.template`:
 
 ```bash
 RUN apt-get update && apt-get install -yq \
-    apt-get purge bluez-utils blueman bluez bluez-firmware pi-bluetooth \
-    apt-get install blueman bluez bluez-firmware pi-bluetooth \
+    blueman bluez bluez-firmware pi-bluetooth && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
+
+[other code here, see file]
+
+RUN usermod -a -G bluetooth root && \
+cat /etc/group | grep bluetooth
 ```
 
-- Going to try this in shell script instead:
+- Then I tested it with: `sudo hcitool lescan` ... and it worked!
 
-```
-usermod -G bluetooth -a pi \
-cat /etc/group | grep bluetooth \
-service bluetooth status \
-```
+
