@@ -1,0 +1,27 @@
+{
+  "name": "cat-tracker",
+  "version": "1.0.0",
+  "description": "My experiment in machine learning with a beacon on the family cat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkeefe/cat-tracker.git"
+  },
+  "keywords": [
+    "machine",
+    "learning",
+    "ai",
+    "beacons",
+    "raspberry",
+    "pi"
+  ],
+  "author": "John Keefe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkeefe/cat-tracker/issues"
+  },
+  "homepage": "https://github.com/jkeefe/cat-tracker#readme"
+}
