@@ -55,7 +55,29 @@ RUN apt-get update && apt-get install -yq \
 - Eeeps, need more than that. Got **"Set scan parameters failed: File descriptor in bad state"** whenever I tried anything. So tried some of what is outlined [here](https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=141850):
 
 ```shell
+sudo apt-get purge bluez-utils blueman bluez bluez-firmware pi-bluetooth
+sudo apt-get install blueman bluez  # RPi 2
+sudo apt-get install blueman bluez bluez-firmware pi-bluetooth  # RPi 3
+sudo usermod -G bluetooth -a pi  # Or it won't work
+cat /etc/group | grep bluetooth
+sudo service bluetooth status
+
+# Reboot
+
+# Test
+sudo service bluetooth status
+rfkill list
+sudo hcitool lescan
+bluetoothctl
+```
+Initially, I implemented this like so in the `Dockerfile.template`:
+
+```bash
 RUN apt-get update && apt-get install -yq \
-    bluez bluez-hcidump && \
+    apt-get purge bluez-utils blueman bluez bluez-firmware pi-bluetooth \
+    apt-get install blueman bluez bluez-firmware pi-bluetooth \
+    usermod -G bluetooth -a pi \
+    cat /etc/group | grep bluetooth \
+    sudo service bluetooth status \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 ```
