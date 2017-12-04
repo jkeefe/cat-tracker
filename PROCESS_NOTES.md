@@ -47,9 +47,15 @@ Working roughly from this [explainer](https://blog.truthlabs.com/beacon-tracking
 - Installed "Bluez" on the Pi using info from [this site](https://www.thepolyglotdeveloper.com/2016/09/scan-bluetooth-enabled-ibeacons-via-raspberry-pi-iot-device/).
 - Need to add `sudo apt-get install bluez bluez-hcidump` into the Docker startup file, I think.
 - Doing that by altering the commented-out example in `Dockerfile.template` so it looks like this:
-    ```bash
-    RUN apt-get update && apt-get install -yq \
-        bluez bluez-hcidump && \
-        apt-get clean && rm -rf /var/lib/apt/lists/*
-    ```
-        
+```bash
+RUN apt-get update && apt-get install -yq \
+    bluez bluez-hcidump && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
+```
+- Eeeps, need more than that. Got **"Set scan parameters failed: File descriptor in bad state"** whenever I tried anything. So tried some of what is outlined [here](https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=141850):
+
+```shell
+RUN apt-get update && apt-get install -yq \
+    bluez bluez-hcidump && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
+```
