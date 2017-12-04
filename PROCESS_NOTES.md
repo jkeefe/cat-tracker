@@ -30,3 +30,11 @@ Instead of using [the example repo](https://github.com/resin-io-projects/simple-
   },
 ```
 - Copied `Dockerfile.template` from [here](https://github.com/resin-io-projects/simple-server-node/blob/master/Dockerfile.template)
+- Loaded up my ssh key with `ssh-add`
+- Did `git push origin master` to save a copy in my main repo
+- Did `git push resin master` to send it to the pi
+
+
+## Periodic updates with CRON
+
+Going to check out [this example code](https://github.com/resin-io-playground/cron-example/blob/master/Dockerfile.template).
