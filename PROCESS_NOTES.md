@@ -33,8 +33,23 @@ Instead of using [the example repo](https://github.com/resin-io-projects/simple-
 - Loaded up my ssh key with `ssh-add`
 - Did `git push origin master` to save a copy in my main repo
 - Did `git push resin master` to send it to the pi
-
+- WORKS: Saved as branch `git push --set-upstream origin waypoint1-sucessful-setup`
 
 ## Periodic updates with CRON
 
 Going to check out [this example code](https://github.com/resin-io-playground/cron-example/blob/master/Dockerfile.template).
+
+
+## Scanning for Beacons
+
+Working roughly from this [explainer](https://blog.truthlabs.com/beacon-tracking-with-node-js-and-raspberry-pi-794afa880318) ...
+
+- Installed "Bluez" on the Pi using info from [this site](https://www.thepolyglotdeveloper.com/2016/09/scan-bluetooth-enabled-ibeacons-via-raspberry-pi-iot-device/).
+- Need to add `sudo apt-get install bluez bluez-hcidump` into the Docker startup file, I think.
+- Doing that by altering the commented-out example in `Dockerfile.template` so it looks like this:
+    ```bash
+    RUN apt-get update && apt-get install -yq \
+        bluez bluez-hcidump && \
+        apt-get clean && rm -rf /var/lib/apt/lists/*
+    ```
+        
