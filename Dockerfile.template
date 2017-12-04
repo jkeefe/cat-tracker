@@ -11,7 +11,7 @@ FROM resin/%%RESIN_MACHINE_NAME%%-node:6-slim
 #    apt-get clean && rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update && apt-get install -yq \
-    apt-get install blueman bluez bluez-firmware pi-bluetooth \
+    blueman bluez bluez-firmware pi-bluetooth && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Defines our working directory in container
@@ -30,7 +30,7 @@ COPY . ./
 # Enable systemd init system in container
 ENV INITSYSTEM on
 
-RUN usermod -a -G bluetooth pi \
+RUN usermod -a -G bluetooth pi && \
 cat /etc/group | grep bluetooth
 
 # server.js will run when container starts up on the device
