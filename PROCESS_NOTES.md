@@ -76,8 +76,13 @@ Initially, I implemented this like so in the `Dockerfile.template`:
 RUN apt-get update && apt-get install -yq \
     apt-get purge bluez-utils blueman bluez bluez-firmware pi-bluetooth \
     apt-get install blueman bluez bluez-firmware pi-bluetooth \
-    usermod -G bluetooth -a pi \
-    cat /etc/group | grep bluetooth \
-    sudo service bluetooth status \
     apt-get clean && rm -rf /var/lib/apt/lists/*
+```
+
+- Going to try this in shell script instead:
+
+```
+usermod -G bluetooth -a pi \
+cat /etc/group | grep bluetooth \
+service bluetooth status \
 ```
