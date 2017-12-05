@@ -85,7 +85,7 @@ Took some tinkering, and some changes (like user `root` instead of `pi` but I im
 
 ```bash
 RUN apt-get update && apt-get install -yq \
-    blueman bluez bluez-firmware pi-bluetooth && \
+    blueman bluez bluez-firmware pi-bluetooth build-essential libbluetooth-dev libudev-dev && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 [other code here, see file]
@@ -98,10 +98,20 @@ cat /etc/group | grep bluetooth
 
 ## Scanning for Beacons Part II
 
-In addition to the hardware scanning changes described ☝️, I needed to use some software in a language I know (somewhat): nodejs. So installed [noble](https://github.com/sandeepmistry/noble) using:
+In addition to the hardware scanning changes described ☝️, I needed to use some software in a language I know (somewhat), which would be node. So using the [noble](https://github.com/sandeepmistry/noble) library.
+
+[This Getting Started document](https://github.com/sandeepmistry/noble/wiki/Getting-started) appears to be essential. Revised details in Part I accordingly.
+
+Seems I was missing `libbluetooth-dev` particularly.
+
+Installed nobel with:
 ```
 npm install noble --save
 ```
 
+Got this error: `Error: Could not start scanning, state is poweredOff (not poweredOn)`
 
+Remember seeing something about starting the BLE from [another example](https://github.com/resin-io-playground/rpi3-bluetooth-peripheral)
+
+ 
 
