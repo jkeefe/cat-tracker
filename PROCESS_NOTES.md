@@ -129,5 +129,26 @@ advertising: { localName: undefined,
 rssi: -61
 ```
 
+## RSSI Smoothing
+
+The numbers are definitely all over the place, even when I put the beacon right next to the receiver. I noticed there was a "RSSI Smoothing" option in the Gimbal app, so looked into it for my processing.
+
+Found [this description](https://www.wouterbulten.nl/blog/tech/kalman-filters-explained-removing-noise-from-rssi-signals/) of Kalman Filters, which included [description](https://www.wouterbulten.nl/blog/tech/lightweight-javascript-library-for-noise-filtering/) and [code](https://github.com/wouterbulten/kalmanjs) for a JavasScript library.
+
+Probably will use the "Predicting Growth" section and play with the `A:` value. Or maybe not, if it's just a small sample and we assume the cat is "static" in a spot for that sample.
+
+Maybe I push into an array a fixed number of samples, and when queried I just take the Kalman of wherever they are at at the moment.
+
+## Data Collection
+
+Have been thinking about the best way to synchronize the Pis, and decided that maybe I expose port 80 to them (using Resin's "public url" option) and just serve up JSON with the latest reading (with the Kalman filter).
+
+- Do this with a lambda function
+- Drive with a cron job
+- Three promises that run with each run
+- Store the data to S3? in an appended CSV? (Or DynamoDB?) Or Airtable? or Spark
+- Heck, might just post it to a google spreadsheet?
+
+
 
 
