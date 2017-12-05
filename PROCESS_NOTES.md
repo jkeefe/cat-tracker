@@ -143,11 +143,24 @@ Maybe I push into an array a fixed number of samples, and when queried I just ta
 
 Have been thinking about the best way to synchronize the Pis, and decided that maybe I expose port 80 to them (using Resin's "public url" option) and just serve up JSON with the latest reading (with the Kalman filter).
 
+First, expose the value in the index.js
+
+- actually go back and use the Resin [example](https://github.com/resin-io-projects/simple-server-node) script! :-)
+
+
+Then set up the pinger.
+
 - Do this with a lambda function
 - Drive with a cron job
 - Three promises that run with each run
+- Ignore this folder with .dockerignore
+
+Then, store all three values somewhere.
+
 - Store the data to S3? in an appended CSV? (Or DynamoDB?) Or Airtable? or Spark
 - Heck, might just post it to a google spreadsheet?
+- No, MongoDB for now to be safe.
+
 
 
 
