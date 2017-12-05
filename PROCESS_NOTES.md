@@ -39,6 +39,16 @@ Instead of using [the example repo](https://github.com/resin-io-projects/simple-
 
 Going to check out [this example code](https://github.com/resin-io-playground/cron-example/blob/master/Dockerfile.template).
 
+## The Beacon
+
+- Bought this: https://store.gimbal.com/collections/beacons/products/s10
+- Had to pry it open, but managed to pull that off
+- Signed up for a Gimbal account (which I did when I bought it)
+- Logged in at https://manager.gimbal.com/
+- Beacons > Beacon Management > Activate Beacon
+- Put in the code from inside the beacon (which it turns out I could have scanned with the app)
+- Downloaded the Gimbal Beacon Manager from the App Store
+- Looking good!
 
 ## Scanning for Beacons
 
@@ -85,5 +95,13 @@ cat /etc/group | grep bluetooth
 ```
 
 - Then I tested it with: `sudo hcitool lescan` ... and it worked!
+
+## Scanning for Beacons Part II
+
+In addition to the hardware scanning changes described ☝️, I needed to use some software in a language I know (somewhat): nodejs. So installed [noble](https://github.com/sandeepmistry/noble) using:
+```
+npm install noble --save
+```
+
 
 

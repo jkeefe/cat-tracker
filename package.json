@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/jkeefe/cat-tracker/issues"
   },
-  "homepage": "https://github.com/jkeefe/cat-tracker#readme"
+  "homepage": "https://github.com/jkeefe/cat-tracker#readme",
+  "dependencies": {
+    "noble": "^1.8.1"
+  }
 }
