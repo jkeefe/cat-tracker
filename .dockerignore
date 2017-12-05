@@ -1,2 +1,3 @@
 #ignore the lambda folder, which is used on aws and not needed on the pis
 /lambda/
+/testing/

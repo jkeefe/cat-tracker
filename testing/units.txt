@@ -1,0 +1,995 @@
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -69
+services null
+
+id: 2178a7734306
+uuid: 2178a7734306
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -75
+services null
+
+id: 78bdbc8a5a1b
+uuid: 78bdbc8a5a1b
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 75 00 42 04 01 01 af 78 bd bc 8a 5a 1b 7a bd bc 8a 5a 1a 06 00 00 00 00 00 00>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -95
+services null
+
+id: 28395e4a864f
+uuid: 28395e4a864f
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 75 00 42 04 01 01 6e 28 39 5e 4a 86 4f 2a 39 5e 4a 86 4e 01 00 00 00 00 00 00>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -87
+services null
+
+id: 10c7f042ff53
+uuid: 10c7f042ff53
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -57
+services null
+
+id: 18ee691194d2
+uuid: 18ee691194d2
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 4c 00 09 06 03 d5 c0 a8 01 0a>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -96
+services null
+
+id: 09182776491e
+uuid: 09182776491e
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -57
+services null
+
+id: 1ce62bed1439
+uuid: 1ce62bed1439
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 4c 00 09 06 03 6d c0 a8 01 02>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -90
+services null
+
+id: 1adad9de2c97
+uuid: 1adad9de2c97
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -73
+services null
+
+id: 3044f1b8a472
+uuid: 3044f1b8a472
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -67
+services null
+
+id: 31bdad6d6b60
+uuid: 31bdad6d6b60
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -55
+services null
+
+id: 5cf938ccd71b
+uuid: 5cf938ccd71b
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 4c 00 09 06 03 da c0 a8 00 53>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -86
+services null
+
+id: 258dee6a99d8
+uuid: 258dee6a99d8
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -61
+services null
+
+id: 10c2fc5434b1
+uuid: 10c2fc5434b1
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -55
+services null
+
+id: 1fd6cf16cc12
+uuid: 1fd6cf16cc12
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -77
+services null
+
+id: f4f951c32b52
+uuid: f4f951c32b52
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 4c 00 09 06 03 25 c0 a8 00 14>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -89
+services null
+
+id: 258be3830306
+uuid: 258be3830306
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -77
+services null
+
+id: 0be38002fc51
+uuid: 0be38002fc51
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -61
+services null
+
+id: 173042f95b26
+uuid: 173042f95b26
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -74
+services null
+
+id: 286178a472ba
+uuid: 286178a472ba
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -67
+services null
+
+id: 1b26891b2385
+uuid: 1b26891b2385
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -59
+services null
+
+id: 2d6d6e6a9fd6
+uuid: 2d6d6e6a9fd6
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -78
+services null
+
+id: 1cd431beaf90
+uuid: 1cd431beaf90
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -71
+services null
+
+id: 238004f1bba6
+uuid: 238004f1bba6
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -61
+services null
+
+id: 173042f95d2d
+uuid: 173042f95d2d
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a93244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -88
+services null
+
+id: 1431bba58eea
+uuid: 1431bba58eea
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -67
+services null
+
+id: 0004f7b64f16
+uuid: 0004f7b64f16
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -71
+services null
+
+id: 13c303050deb
+uuid: 13c303050deb
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -58
+services null
+
+id: 0f15ceef93c6
+uuid: 0f15ceef93c6
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -79
+services null
+
+id: 7b66143475ce
+uuid: 7b66143475ce
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 4c 00 10 05 0b 10 ac dc e7>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -101
+services null
+
+id: 01fea99e2a9f
+uuid: 01fea99e2a9f
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -77
+services null
+
+id: 07f64c113eaf
+uuid: 07f64c113eaf
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -88
+services null
+
+id: 39582471beaf
+uuid: 39582471beaf
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -68
+services null
+
+id: 06091b268c17
+uuid: 06091b268c17
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -71
+services null
+
+id: 2c9431beaf93
+uuid: 2c9431beaf93
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -57
+services null
+
+id: 395b2087f54d
+uuid: 395b2087f54d
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -60
+services null
+
+id: 2383060f13c0
+uuid: 2383060f13c0
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -79
+services null
+
+id: 5acff96561b8
+uuid: 5acff96561b8
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 4c 00 10 05 0a 10 bb 0e cd>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -94
+services null
+
+id: 113eaa9ad9db
+uuid: 113eaa9ad9db
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -73
+services null
+
+id: 10c2fc57364a
+uuid: 10c2fc57364a
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -77
+services null
+
+id: 2477b54ded6b
+uuid: 2477b54ded6b
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -71
+services null
+
+id: 3f53c3060c11
+uuid: 3f53c3060c11
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -74
+services null
+
+id: 2998227c5434
+uuid: 2998227c5434
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -82
+services null
+
+id: 13c002f95d2d
+uuid: 13c002f95d2d
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -63
+services null
+
+id: 286474b1bda8
+uuid: 286474b1bda8
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -86
+services null
+
+id: 2a9fd0c4f1bd
+uuid: 2a9fd0c4f1bd
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -61
+services null
+
+id: 0004f2bf50c2
+uuid: 0004f2bf50c2
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -81
+services null
+
+id: 1adcd23c5437
+uuid: 1adcd23c5437
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -82
+services null
+
+id: 0de862795822
+uuid: 0de862795822
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -61
+services null
+
+id: 17364a1fd6cf
+uuid: 17364a1fd6cf
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -71
+services null
+
+id: 0004f4b1b8a2
+uuid: 0004f4b1b8a2
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -76
+services null
+
+id: 0c113eac913b
+uuid: 0c113eac913b
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -88
+services null
+
+id: 227958227a5c
+uuid: 227958227a5c
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -70
+services null
+
+id: 1b23860c1431
+uuid: 1b23860c1431
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -59
+services null
+
+id: 34b2ba5fd6ca
+uuid: 34b2ba5fd6ca
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -76
+services null
+
+id: 2081f8a27f50
+uuid: 2081f8a27f50
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a92244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -74
+services null
+
+^Croot@4588800:/usr/src/app# node index.js
+id: 0866988b108b
+uuid: 0866988b108b
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 4c 00 10 05 01 10 7b 1c b8>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -92
+services null
+
+id: 2d3989422e1d
+uuid: 2d3989422e1d
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 4c 00 09 06 03 02 c0 a8 00 02>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -69
+services null
+
+id: 2e6d6f913a5d
+uuid: 2e6d6f913a5d
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a99244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -68
+services null
+
+id: 769717197914
+uuid: 769717197914
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 4c 00 10 02 0b 00>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -54
+services null
+
+id: 6c94f8d39593
+uuid: 6c94f8d39593
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 4c 00 09 06 03 1e c0 a8 01 06>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -91
+services null
+
+id: 18ee691e5d19
+uuid: 18ee691e5d19
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 4c 00 09 06 03 02 00 00 00 00>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -86
+services null
+
+id: 0452c7b90ac0
+uuid: 0452c7b90ac0
+advertising: { localName: 'Roast Beats',
+txPowerLevel: 10,
+manufacturerData: <Buffer 10 01 40 0d 01 00>,
+serviceData: [],
+serviceUuids: [ 'febe' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -73
+services null
+
+id: 670bb0160161
+uuid: 670bb0160161
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 4c 00 0d 04 91 e4 61 95>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -98
+services null
+
+id: 5db41750623c
+uuid: 5db41750623c
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 4c 00 10 05 0b 10 7f 50 67>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -57
+services null
+
+id: 7cd1c3088ef7
+uuid: 7cd1c3088ef7
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 4c 00 09 06 02 32 c0 a8 01 59>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -95
+services null
+
+id: 0452c78957d8
+uuid: 0452c78957d8
+advertising: { localName: 'Bose Color II SoundLink',
+txPowerLevel: 10,
+manufacturerData: <Buffer 10 01 40 0d 04 00>,
+serviceData: [],
+serviceUuids: [ 'febe' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -83
+services null
+
+id: 00050c10c000
+uuid: 00050c10c000
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a99244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -83
+services null
+
+id: 9c207be5a17c
+uuid: 9c207be5a17c
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 4c 00 09 06 02 21 c0 a8 00 05>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -93
+services null
+
+id: 18ee691194d2
+uuid: 18ee691194d2
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 4c 00 09 06 03 d5 c0 a8 01 0a>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -95
+services null
+
+id: 40490f1cba88
+uuid: 40490f1cba88
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 2d 01 02 00 01 10 f9 b9 59 0a a8 49 4c 13 b6 4e 83 d1 9e b1 8a 9d b2 f2 84 41 4e 53>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -89
+services null
+
+id: 5cf938ccd71b
+uuid: 5cf938ccd71b
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 4c 00 09 06 03 da c0 a8 00 53>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -95
+services null
+
+id: 050c10c00301
+uuid: 050c10c00301
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a99244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -89
+services null
+
+id: 1add2f9737b7
+uuid: 1add2f9737b7
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a99244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -80
+services null
+
+id: 5311d2a9ac48
+uuid: 5311d2a9ac48
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 4c 00 10 05 0a 10 98 9c df>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -103
+services null
+
+id: 78bdbc8a5a1b
+uuid: 78bdbc8a5a1b
+advertising: { localName: '[TV] UN48JS8500',
+txPowerLevel: undefined,
+manufacturerData: <Buffer 75 00 42 04 01 01 af 78 bd bc 8a 5a 1b 7a bd bc 8a 5a 1a 06 00 00 00 00 00 00>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -97
+services null
+
+id: 2a982381ff57
+uuid: 2a982381ff57
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a99244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -49
+services null
+
+id: 41fe63d64196
+uuid: 41fe63d64196
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: undefined,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -74
+services null
+
+id: 34b64be27ba2
+uuid: 34b64be27ba2
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a99244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -31
+services null
+
+id: 1731bf5732b8
+uuid: 1731bf5732b8
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a98244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -31
+services null
+
+id: 07f7b7b1b95c
+uuid: 07f7b7b1b95c
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a98244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -43
+services null
+
+id: 28395e4a864f
+uuid: 28395e4a864f
+advertising: { localName: '[TV] Samsung 6 Series (43)',
+txPowerLevel: undefined,
+manufacturerData: <Buffer 75 00 42 04 01 20 6e 17 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00>,
+serviceData: [],
+serviceUuids: [],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -98
+services null
+
+id: 0eee6b627da9
+uuid: 0eee6b627da9
+advertising: { localName: undefined,
+txPowerLevel: undefined,
+manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+serviceData: [],
+serviceUuids: [ '960c4a96244c11e2b29900a0c60077ad' ],
+solicitationServiceUuids: [],
+serviceSolicitationUuids: [] }
+rssi: -43
+services null
+
+^Croot@4588800:/usr/src/app#

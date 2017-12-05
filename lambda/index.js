@@ -1,6 +1,9 @@
 // Require modules here
 const request = require('request');
 const moment = require('moment');
+const mongodb = require('mongodb');
+
+const mongo_url = "mongodb://" + process.env.MONGO_DB_USER + ":" + process.env.MONGO_DB_USER_PASS + "@ds111818-a0.mlab.com:11818,ds111818-a1.mlab.com:11818/bot-workshop-db?replicaSet=rs-ds111818";
 
 var pi_urls = ['https://4588800fb59fe0e6bf28bfbc67bb6e03.resindevice.io/'];
 var readings;
@@ -61,7 +64,8 @@ function hitOnePi(url) {
                 return;
             }
             
-            readings.push(body);
+            var pi_data = JSON.parse(body);
+            readings.push(pi_data);
             resolve();            
         });        
     });
@@ -82,7 +86,27 @@ function storeInDB(data) {
             
         }    
         
-        console.log(record);
-        resolve();    
+        mongodb.connect(mongo_url, function(err, db){
+    
+            if (err) {
+                console.log("Error opening MongoDB database on mLab.");
+                reject("{ error: 'MongoDB Error' }");
+            }
+            
+            // collection.update(criteria, update[[, options], callback]);
+            db.collection("cat-tracker-data").insertOne(record, 
+                function(err, object) { // callback
+                    if (err) {
+                        console.log(err.message);
+                        reject("{ error: 'MongoDB Error' }");
+                    } else {
+                        console.log(object);
+                        resolve('{"status":"OK"}');
+                    }        
+                } 
+            );
+    
+        });
+         
     });    
 }
