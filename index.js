@@ -9,9 +9,11 @@ noble.on('stateChange', function(state) {
 });
 
 noble.on('discover', function(peripheral) {
-    console.log('Found device with local name: ' + peripheral.advertisement.localName);
-    console.log('advertising the following service uuid\'s: ' + peripheral.advertisement.serviceUuids);
-    console.log('full data package:', JSON.stringify(peripheral));
+    console.log("id:", peripheral.id);
+    console.log("uuid:", peripheral.uuid);
+    console.log("advertising:", peripheral.advertisement);
+    console.log("rssi:", peripheral.rssi);
+    console.log("services", peripheral.services);
     console.log();
 });
 
