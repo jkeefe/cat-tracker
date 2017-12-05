@@ -6,21 +6,24 @@ var app = express();
 var current_reading = 0;
 
 // scan only the cat beacon's id
-var serviceUUIDs = ['960c4a96244c11e2b29900a0c60077ad'];
+var catServiceUUIDs = '960c4a96244c11e2b29900a0c60077ad';
 
 // Listen for the cat beacon
 noble.on('stateChange', function(state) {
     if (state === 'poweredOn') {
-        noble.startScanning(serviceUUIDs);
+        noble.startScanning();
     } else {
         noble.stopScanning();
     }
 });
 
 noble.on('discover', function(peripheral) {
-    
-    current_reading = peripheral.rssi;
-    console.log(current_reading);
+
+    if (peripheral.advertisement.serviceUuids[0] == catServiceUUIDs) {
+        current_reading = peripheral.rssi;
+        console.log(current_reading);
+    }
+
     
 });
 

@@ -162,6 +162,7 @@ Then, store all three values somewhere.
 - No, MongoDB for now to be safe.
 
 
-
+TODO:
+- May need to put beacon into "public" mode
 
 
