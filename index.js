@@ -30,21 +30,21 @@ noble.on('discover', function(peripheral) {
 });
 
 
-// // reply to request 
-// app.get('/', function (req, res) {
-// 
-//     var payload = {};
-//     payload.report_time = moment().utc().format();
-//     payload.rssi_value = current_reading;
-// 
-//     res.send(JSON.stringify(payload));
-// 
-// });
-// 
-// //start a server on port 80 and log its start to our console
-// var server = app.listen(80, function () {
-// 
-//     var port = server.address().port;
-//     console.log('Cat Tracker app listening on port ', port);
-// 
-// });
+// reply to request 
+app.get('/', function (req, res) {
+
+    var payload = {};
+    payload.report_time = moment().utc().format();
+    payload.rssi_value = current_reading;
+
+    res.send(JSON.stringify(payload));
+
+});
+
+//start a server on port 80 and log its start to our console
+var server = app.listen(80, function () {
+
+    var port = server.address().port;
+    console.log('Cat Tracker app listening on port ', port);
+
+});
