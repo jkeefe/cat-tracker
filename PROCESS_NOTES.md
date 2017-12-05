@@ -100,7 +100,7 @@ cat /etc/group | grep bluetooth
 
 In addition to the hardware scanning changes described ☝️, I needed to use some software in a language I know (somewhat), which would be node. So using the [noble](https://github.com/sandeepmistry/noble) library.
 
-[This Getting Started document](https://github.com/sandeepmistry/noble/wiki/Getting-started) appears to be essential. Revised details in Part I accordingly.
+*** [This Getting Started document](https://github.com/sandeepmistry/noble/wiki/Getting-started) appears to be essential. Revised details in Part I accordingly.
 
 Seems I was missing `libbluetooth-dev` particularly.
 
@@ -108,10 +108,10 @@ Installed nobel with:
 ```
 npm install noble --save
 ```
+Also used example javascript, and it worked beautifully.
 
-Got this error: `Error: Could not start scanning, state is poweredOff (not poweredOn)`
+But the cat was too far away in the kids' room!
 
-Remember seeing something about starting the BLE from [another example](https://github.com/resin-io-playground/rpi3-bluetooth-peripheral)
 
- 
+
 
