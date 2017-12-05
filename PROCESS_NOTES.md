@@ -48,6 +48,11 @@ Going to check out [this example code](https://github.com/resin-io-playground/cr
 - Beacons > Beacon Management > Activate Beacon
 - Put in the code from inside the beacon (which it turns out I could have scanned with the app)
 - Downloaded the Gimbal Beacon Manager from the App Store
+- To configure the beacon ... and make it stop broadcasting random IDs:
+    - Open the Gimbal Beacon Manager on the iPhone
+    - Then open the beacon and "remove" the battery and put it back
+    - Snap the beacon back together
+    - Now you can update the info on the beacon, and the firmware.
 - Looking good!
 
 ## Scanning for Beacons
@@ -112,6 +117,17 @@ Also used example javascript, and it worked beautifully.
 
 But the cat was too far away in the kids' room!
 
+Now we have him:
+```
+advertising: { localName: undefined,
+  txPowerLevel: undefined,
+  manufacturerData: <Buffer 8c 00 6e 99 58 f1 3b 8a 24 3c b5>,
+  serviceData: [],
+  serviceUuids: [ '960c4a90244c11e2b29900a0c60077ad' ],
+  solicitationServiceUuids: [],
+  serviceSolicitationUuids: [] }
+rssi: -61
+```
 
 
 
