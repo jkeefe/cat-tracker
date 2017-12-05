@@ -1,0 +1,33 @@
+{
+  "name": "cat-tracker",
+  "version": "1.0.0",
+  "description": "Lambda function for my cat-tracker AI project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkeefe/cat-tracker.git"
+  },
+  "keywords": [
+    "ai",
+    "cats",
+    "pi",
+    "resin",
+    "aws"
+  ],
+  "author": "John Keefe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkeefe/cat-tracker/issues"
+  },
+  "homepage": "https://github.com/jkeefe/cat-tracker#readme",
+  "devDependencies": {
+    "claudia": "^2.14.3"
+  },
+  "dependencies": {
+    "moment": "^2.19.3",
+    "request": "^2.83.0"
+  }
+}

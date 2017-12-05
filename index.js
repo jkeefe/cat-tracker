@@ -36,7 +36,9 @@ app.get('/', function (req, res) {
     var payload = {};
     payload.report_time = moment().utc().format();
     payload.rssi_value = current_reading;
+    payload.pi_number = process.env.PI_NUMBER;
 
+    res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(payload));
 
 });

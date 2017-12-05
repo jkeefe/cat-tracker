@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "lambda-executor",
+    "name": "cat-tracker",
+    "region": "us-east-1"
+  }
+}

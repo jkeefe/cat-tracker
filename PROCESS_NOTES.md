@@ -146,11 +146,16 @@ Have been thinking about the best way to synchronize the Pis, and decided that m
 First, expose the value in the index.js
 
 - actually go back and use the Resin [example](https://github.com/resin-io-projects/simple-server-node) script! :-)
-
+- got this serving up json
 
 Then set up the pinger.
 
 - Do this with a lambda function
+    - As usual, setting up with my [basic-lambda-setup](https://github.com/jkeefe/basic-lambda-setup)
+    - Kicked off with:
+    ```
+    ./node_modules/.bin/claudia create --region us-east-1 --handler index.handler --role lambda-executor
+    ```
 - Drive with a cron job
 - Three promises that run with each run
 - Ignore this folder with .dockerignore
@@ -164,5 +169,7 @@ Then, store all three values somewhere.
 
 TODO:
 - May need to put beacon into "public" mode
+- Pass a Pi ID with each reading
+
 
 
