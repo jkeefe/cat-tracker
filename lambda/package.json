@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "moment": "^2.19.3",
-    "mongodb": "^3.0.0-rc0",
+    "mongodb": "^2.2.33",
     "request": "^2.83.0"
   }
 }

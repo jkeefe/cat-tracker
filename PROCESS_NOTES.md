@@ -156,16 +156,19 @@ Then set up the pinger.
     ```
     ./node_modules/.bin/claudia create --region us-east-1 --handler index.handler --role lambda-executor
     ```
+    and to update:
+    ```
+    ./node_modules/.bin/claudia update
+    ```
 - Drive with a cron job
 - Three promises that run with each run
 - Ignore this folder with .dockerignore
 
 Then, store all three values somewhere.
 
-- Store the data to S3? in an appended CSV? (Or DynamoDB?) Or Airtable? or Spark
-- Heck, might just post it to a google spreadsheet?
 - No, MongoDB for now to be safe.
-
+- UGH ... but while I'm working on it, they update the mongodb library to connect completely differently! https://github.com/mongodb/node-mongodb-native/blob/3.0.0/CHANGES_3.0.0.md
+- Rolled back to an older version.
 
 TODO:
 - May need to put beacon into "public" mode

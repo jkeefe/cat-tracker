@@ -11,7 +11,7 @@ var catServiceUUIDs = ['960c4a96244c11e2b29900a0c60077ad'];
 // Listen for the cat beacon
 noble.on('stateChange', function(state) {
     if (state === 'poweredOn') {
-        noble.startScanning();
+        noble.startScanning([], true);
     } else {
         noble.stopScanning();
     }
@@ -19,13 +19,10 @@ noble.on('stateChange', function(state) {
 
 noble.on('discover', function(peripheral) {
 
-    // if (peripheral.advertisement.serviceUuids == catServiceUUIDs) {
-    //     current_reading = peripheral.rssi;
-    //     console.log(current_reading);
-    // }
-
-    current_reading = peripheral.rssi;
-    console.log(current_reading);
+    if (peripheral.advertisement.serviceUuids == catServiceUUIDs) {
+        current_reading = peripheral.rssi;
+        console.log(current_reading);
+    }
     
 });
 

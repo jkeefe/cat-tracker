@@ -1,7 +1,7 @@
 // Require modules here
 const request = require('request');
 const moment = require('moment');
-const mongodb = require('mongodb');
+var mongodb = require('mongodb');
 
 const mongo_url = "mongodb://" + process.env.MONGO_DB_USER + ":" + process.env.MONGO_DB_USER_PASS + "@ds111818-a0.mlab.com:11818,ds111818-a1.mlab.com:11818/bot-workshop-db?replicaSet=rs-ds111818";
 
@@ -72,7 +72,7 @@ function hitOnePi(url) {
 }
 
 function storeInDB(data) {
-    return new Promise ((resolve,reject) =>{
+    return new Promise ((resolve,reject) => {
         
         var record = {};
         record.poll_time = moment().utc().format();
@@ -84,29 +84,37 @@ function storeInDB(data) {
             
             record.devices[data[i].pi_number] = data[i];
             
-        }    
+        }
         
-        mongodb.connect(mongo_url, function(err, db){
-    
+        mongodb.connect(mongo_url, function(err, db) {
+            
             if (err) {
-                console.log("Error opening MongoDB database on mLab.");
-                reject("{ error: 'MongoDB Error' }");
+                console.log("Error opening database:", err);
+                reject();
+                return;
             }
             
-            // collection.update(criteria, update[[, options], callback]);
-            db.collection("cat-tracker-data").insertOne(record, 
-                function(err, object) { // callback
-                    if (err) {
-                        console.log(err.message);
-                        reject("{ error: 'MongoDB Error' }");
-                    } else {
-                        console.log(object);
-                        resolve('{"status":"OK"}');
-                    }        
-                } 
-            );
-    
+            console.log("Connected successfully to server");
+            console.log(db);
+
+            var collection = db.collection('cat-tracker-data');
+
+            // Insert some documents
+            collection.insertOne(record, function(error, result) {
+                
+                if (error) {
+                    console.log("Error opening database:", error);
+                    reject();
+                    return;
+                }
+                
+                console.log("Inserted document into the collection");
+                db.close();
+                resolve('{"status":"OK"}');
+                
+            });
+            
         });
-         
-    });    
+        
+    });  
 }
