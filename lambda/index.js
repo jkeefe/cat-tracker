@@ -96,11 +96,9 @@ function storeInDB(data) {
             }
             
             console.log("Connected successfully to server");
-            console.log(db);
 
             var collection = db.collection('cat-tracker-data');
 
-            // Insert some documents
             collection.insertOne(record, function(error, result) {
                 
                 if (error) {
@@ -110,6 +108,7 @@ function storeInDB(data) {
                 }
                 
                 console.log("Inserted document into the collection");
+                console.log(record);
                 db.close();
                 resolve('{"status":"OK"}');
                 

@@ -161,6 +161,9 @@ Then set up the pinger.
     ./node_modules/.bin/claudia update
     ```
 - Drive with a cron job
+    ```
+    ./node_modules/.bin/claudia add-scheduled-event --name "catTrackerTrigger" --event event.json --cron "* * * * ? *"
+    ```
 - Three promises that run with each run
 - Ignore this folder with .dockerignore
 
