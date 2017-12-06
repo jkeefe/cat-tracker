@@ -21,7 +21,7 @@ noble.on('stateChange', function(state) {
 
 noble.on('discover', function(peripheral) {
 
-    if (peripheral.advertisement.serviceUuids[0].match(catServiceTail)) {
+    if (peripheral.advertisement.serviceUuids.length > 0 && peripheral.advertisement.serviceUuids[0].match(catServiceTail)) {
         current_reading = peripheral.rssi;
         console.log(current_reading);
     }
