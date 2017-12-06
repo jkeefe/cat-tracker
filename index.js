@@ -5,8 +5,10 @@ var app = express();
 
 var current_reading = 0;
 
-// scan only the cat beacon's id
-var catServiceUUIDs = ['960c4a96244c11e2b29900a0c60077ad'];
+// the service id changes if we reconfigure the device
+// but the end of the id seems to stay static. so we'll look
+// for that.
+var catServiceTail = /b29900a0c60077ad$/;
 
 // Listen for the cat beacon
 noble.on('stateChange', function(state) {
@@ -19,7 +21,7 @@ noble.on('stateChange', function(state) {
 
 noble.on('discover', function(peripheral) {
 
-    if (peripheral.advertisement.serviceUuids == catServiceUUIDs) {
+    if (peripheral.advertisement.serviceUuids[0].match(catServiceTail)) {
         current_reading = peripheral.rssi;
         console.log(current_reading);
     }
