@@ -4,6 +4,7 @@ var moment = require('moment');
 var app = express();
 
 var current_reading = 0;
+var current_reading_timestamp;
 
 // the service id changes if we reconfigure the device
 // but the end of the id seems to stay static. so we'll look
@@ -23,7 +24,8 @@ noble.on('discover', function(peripheral) {
 
     if (peripheral.advertisement.serviceUuids.length > 0 && peripheral.advertisement.serviceUuids[0].match(catServiceTail)) {
         current_reading = peripheral.rssi;
-        console.log(current_reading);
+        current_reading_timestamp = moment(); //now
+        // console.log(current_reading);
     }
     
 });
@@ -31,9 +33,15 @@ noble.on('discover', function(peripheral) {
 
 // reply to request 
 app.get('/', function (req, res) {
+    
+    // check for old readings
+    var time_now = moment();
+    if (time_now.diff(current_reading_timestamp, 'minutes') >= 1) {
+        current_reading = null;
+    }
 
     var payload = {};
-    payload.report_time = moment().utc().format();
+    payload.last_detection = current_reading_timestamp.utc().format();
     payload.rssi_value = current_reading;
     payload.pi_number = process.env.PI_NUMBER;
 
