@@ -171,8 +171,13 @@ Then, store all three values somewhere.
 - Rolled back to an older version.
 
 TODO:
-- May need to put beacon into "public" mode
-- Pass a Pi ID with each reading
+- May need to put beacon into "public" mode - didn't seem to help
+- Pass a Pi ID with each reading DONE
+- Play with smoothing
+- Be sure to transmit a new, specific value (-110?) when the cat is out of range of the sensor. Like, after X seconds of no detection.
+
+
+
 
 
 
