@@ -5,7 +5,7 @@ var mongodb = require('mongodb');
 
 const mongo_url = "mongodb://" + process.env.MONGO_DB_USER + ":" + process.env.MONGO_DB_USER_PASS + "@ds111818-a0.mlab.com:11818,ds111818-a1.mlab.com:11818/bot-workshop-db?replicaSet=rs-ds111818";
 
-var pi_urls = ['https://4588800fb59fe0e6bf28bfbc67bb6e03.resindevice.io/', 'https://d5a1b66f3fbe4bfa51dadf4b224d2772.resindevice.io'];
+var pi_urls = ['https://4588800fb59fe0e6bf28bfbc67bb6e03.resindevice.io/', 'https://d5a1b66f3fbe4bfa51dadf4b224d2772.resindevice.io','https://68c410c6abda0810d12537c18bd0caf7.resindevice.io'];
 
 var readings;
 

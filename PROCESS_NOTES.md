@@ -170,14 +170,18 @@ Then set up the pinger.
 Then, store all three values somewhere.
 
 - No, MongoDB for now to be safe.
-- UGH ... but while I'm working on it, they update the mongodb library to connect completely differently! https://github.com/mongodb/node-mongodb-native/blob/3.0.0/CHANGES_3.0.0.md
+- UGH ... but while I'm working on it, they updated the mongodb library to connect completely differently! https://github.com/mongodb/node-mongodb-native/blob/3.0.0/CHANGES_3.0.0.md
 - Rolled back to an older version.
+
+
+
 
 TODO:
 - May need to put beacon into "public" mode - didn't seem to help
 - Pass a Pi ID with each reading DONE
 - Play with smoothing
-- Be sure to transmit a new, specific value (-110?) when the cat is out of range of the sensor. Like, after X seconds of no detection.
+- Be sure to transmit a new, specific value (-110?) when the cat is out of range of the sensor. Like, after X seconds of no detection. DONE: transmitting `null`
+
 
 
 
