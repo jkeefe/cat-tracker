@@ -27,6 +27,7 @@
   "homepage": "https://github.com/jkeefe/cat-tracker#readme",
   "dependencies": {
     "express": "^4.16.2",
+    "forever": "^0.15.3",
     "kalmanjs": "^1.0.0-beta",
     "moment": "^2.19.3",
     "noble": "^1.8.1",
