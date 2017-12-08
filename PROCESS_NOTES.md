@@ -173,7 +173,11 @@ Then, store all three values somewhere.
 - UGH ... but while I'm working on it, they updated the mongodb library to connect completely differently! https://github.com/mongodb/node-mongodb-native/blob/3.0.0/CHANGES_3.0.0.md
 - Rolled back to an older version.
 
+## Pi Locations
 
+- Number 1 "aged-voice" is in the parents' bedroom
+- Number 2 "bitter-night" is in the children's bedroom
+- Number 3 "twilight-star" is in the foyer
 
 
 TODO:
