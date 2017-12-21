@@ -8,6 +8,7 @@ var kalmanFilter = new KalmanFilter({R: 0.01, Q: 3});
 
 var current_reading = 0;
 var reading_array = [];
+var current_reading_time;
 var current_reading_timestamp;
 
 // the service id changes if we reconfigure the device
@@ -28,7 +29,8 @@ noble.on('discover', function(peripheral) {
 
     if (peripheral.advertisement.serviceUuids.length > 0 && peripheral.advertisement.serviceUuids[0].match(catServiceTail)) {
         current_reading = peripheral.rssi;
-        current_reading_timestamp = moment(); //now
+        current_reading_time = moment(); //now
+        current_reading_timestamp = current_reading_time.utc().format();
         
         // add reading to the current reading_array
         reading_array.push(current_reading);
@@ -61,14 +63,14 @@ app.get('/', function (req, res) {
     
     // check for old readings, and pass null if nothing in the last minute
     var time_now = moment();
-    if (time_now.diff(current_reading_timestamp, 'minutes') >= 1) {
+    if (time_now.diff(current_reading_time, 'minutes') >= 1) {
         current_reading = null;
         kalman_reading = null;
     }
 
 
     var payload = {};
-    payload.last_detection = current_reading_timestamp.utc().format();
+    payload.last_detection = current_reading_timestamp;
     payload.raw_value = current_reading;
     payload.smooth_value = kalman_reading;
     payload.pi_number = process.env.PI_NUMBER;
