@@ -29,6 +29,7 @@
   "dependencies": {
     "moment": "^2.19.3",
     "mongodb": "^2.2.33",
+    "raven": "^2.3.0",
     "request": "^2.83.0"
   }
 }
